@@ -41,3 +41,5 @@ CREATE TABLE emprunt (
     FOREIGN KEY(id_emprunteur) REFERENCES emprunteur(id) ON DELETE CASCADE,
         FOREIGN KEY(id_isbn) REFERENCES livre(isbn) ON DELETE CASCADE,
 )
+
+--
